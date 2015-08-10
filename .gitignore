@@ -1,3 +1,4 @@
 *.pyc
 alumni.csv
 alumni/
+.Rhistory
