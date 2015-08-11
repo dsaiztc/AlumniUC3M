@@ -73,14 +73,6 @@ def iterate_over_grades(grades, session):
 		if len(alumns) == 0:
 			printer.printer_in_line('\tEmpty directory', newline = True)
 			continue
-		if grade['value'] == '19;T':
-			# En el listado yo no aparezco (por ser quien inicia sesión entiendo)
-			alumn = {   'name': 'DANIEL SAIZ LLARENA',
-						'degree': grade['name'],
-						'tag': '-',
-						'year_start': '2008',
-						'year_fin': '2014' }
-			alumns.append(alumn)
 		printer.printer_in_line('\tTotal alumns: {}'.format(len(alumns)), newline = True)
 
 		coding.from_unicode_to_ascii(alumns)
