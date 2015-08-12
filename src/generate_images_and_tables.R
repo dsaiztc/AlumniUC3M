@@ -45,6 +45,8 @@ summarise_and_save <- function(df_kind_degree, path_doc){
                         arrange(desc(median))
   write(pandoc.table.return(alumni_summary, style = "rmarkdown", split.tables = Inf), file = path_doc, append = TRUE)
 }
+
+# Create Markdown tables summarizing data for different categories, including specialization
 summarise_and_save_with_specialization <- function(df_kind_degree, path_doc){
   alumni_cp <- df_kind_degree
   alumni_summary <- alumni_cp %>% 
