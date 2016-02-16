@@ -69,3 +69,12 @@
 |              Doctorado en Ingenieria Telematica               |   2    |    1     | 1.673 |      6       |       2006       |       2014        |
 
 
+
+
+|             degree             |  mean  |  median  |  sd   |  num_alumni  |  min_year_start  |  max_year_finish  |
+|:------------------------------:|:------:|:--------:|:-----:|:------------:|:----------------:|:-----------------:|
+| Ingenieria en Telecomunicacion | 8.028  |    8     | 2.047 |     859      |       1994       |       2015        |
+|     Ingenieria Industrial      | 7.574  |    7     | 1.774 |     2453     |       1991       |       2015        |
+|     Ingenieria Informatica     | 7.184  |    7     | 1.913 |     534      |       1994       |       2015        |
+
+
