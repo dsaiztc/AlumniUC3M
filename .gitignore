@@ -1,5 +1,5 @@
 *.pyc
-alumni.csv
+*.csv
 alumni/
 .Rhistory
 .RData
