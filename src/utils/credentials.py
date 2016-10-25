@@ -4,7 +4,8 @@
 import sys
 import getpass
 
-def login():
+
+def promt_user_and_pass():
 	user = raw_input("User: ")
 	password = getpass.getpass()
 
